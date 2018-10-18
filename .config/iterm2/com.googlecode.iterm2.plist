@@ -35917,7 +35917,7 @@
 	<key>NSNavLastRootDirectory</key>
 	<string>~/.config/iterm2</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
-	<string>{812, 487}</string>
+	<string>{2520, 1380}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -35949,48 +35949,25 @@
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
-	<key>NSWindow Frame ProfilesPanel</key>
-	<string>493 598 735 562 0 0 1920 1200 </string>
+	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
+	<dict>
+		<key>TB Is Shown</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSWindow Frame Preferences</key>
+	<string>0 46 606 456 0 0 825 502 </string>
+	<key>NSWindow Frame SUStatusFrame</key>
+	<string>1080 982 400 129 0 0 2560 1417 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>136 21 700 562 0 0 1920 1200 </string>
+	<string>970 785 620 392 0 0 2560 1417 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
-	<string>2189 225 606 469 1920 120 1920 1080 </string>
+	<string>269 139 606 469 0 0 1440 877 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>578 588 1018 447 0 0 1920 1200 </string>
+	<string>821 482 918 512 0 0 2560 1440 </string>
+	<key>NSWindow Frame UKCrashReporter</key>
+	<string>127 443 592 584 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 765 1920 435 0 0 1920 1200 </string>
-	<key>NSWindow Frame iTerm Window 1</key>
-	<string>41 40 1837 1095 0 0 1920 1200 </string>
-	<key>NSWindow Frame iTerm Window 10</key>
-	<string>3374 675 422 456 1920 120 1920 1080 </string>
-	<key>NSWindow Frame iTerm Window 11</key>
-	<string>1960 160 899 975 1920 120 1920 1080 </string>
-	<key>NSWindow Frame iTerm Window 12</key>
-	<string>2480 251 479 420 1920 120 1920 1080 </string>
-	<key>NSWindow Frame iTerm Window 13</key>
-	<string>2480 525 94 90 1920 120 1920 1080 </string>
-	<key>NSWindow Frame iTerm Window 14</key>
-	<string>2480 525 94 90 1920 120 1920 1080 </string>
-	<key>NSWindow Frame iTerm Window 15</key>
-	<string>2480 525 94 90 1920 120 1920 1080 </string>
-	<key>NSWindow Frame iTerm Window 16</key>
-	<string>2480 525 94 90 1920 120 1920 1080 </string>
-	<key>NSWindow Frame iTerm Window 2</key>
-	<string>980 40 899 1095 0 0 1920 1200 </string>
-	<key>NSWindow Frame iTerm Window 3</key>
-	<string>40 40 899 1095 0 0 1920 1200 </string>
-	<key>NSWindow Frame iTerm Window 4</key>
-	<string>500 323 920 540 0 0 1920 1200 </string>
-	<key>NSWindow Frame iTerm Window 5</key>
-	<string>1144 602 626 450 0 0 1920 1200 </string>
-	<key>NSWindow Frame iTerm Window 6</key>
-	<string>41 40 1837 1095 0 0 1920 1200 </string>
-	<key>NSWindow Frame iTerm Window 7</key>
-	<string>40 40 899 1095 0 0 1920 1200 </string>
-	<key>NSWindow Frame iTerm Window 8</key>
-	<string>409 246 801 540 0 0 1920 1200 </string>
-	<key>NSWindow Frame iTerm Window 9</key>
-	<string>651 420 920 540 0 0 1920 1200 </string>
+	<string>22 20 2516 1380 0 0 2560 1440 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -36719,7 +36696,7 @@
 			<key>Window Type</key>
 			<integer>12</integer>
 			<key>Working Directory</key>
-			<string>/Users/Amar</string>
+			<string>/Users/kevin</string>
 		</dict>
 		<dict>
 			<key>ASCII Anti Aliased</key>
@@ -37461,7 +37438,7 @@
 			<key>Window Type</key>
 			<integer>2</integer>
 			<key>Working Directory</key>
-			<string>/Users/Amar</string>
+			<string>/Users/kevin</string>
 		</dict>
 		<dict>
 			<key>ASCII Anti Aliased</key>
@@ -38189,23 +38166,39 @@
 			<key>Window Type</key>
 			<integer>12</integer>
 			<key>Working Directory</key>
-			<string>/Users/Amar</string>
+			<string>/Users/kevin</string>
 		</dict>
 	</array>
+	<key>NoSyncConfirmBeta</key>
+	<true/>
+	<key>NoSyncHaveShownPromoWithId_4</key>
+	<true/>
+	<key>NoSyncHaveWarnedAboutIncompatibleSoftware</key>
+	<true/>
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
-	<string>A2F4F648-60CE-41AA-9A69-A652BDEDE024</string>
+	<string>523C3890-89C1-4986-A155-B40FB7F9739E</string>
+	<key>NoSyncLastTipTime</key>
+	<real>486935607.202016</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>0</integer>
 	<key>NoSyncPermissionToShowTip</key>
-	<false/>
-	<key>NoSyncSilenceAnnoyingBellAutomatically</key>
 	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>529601153.64455801</real>
+	<real>486475288.81194401</real>
+	<key>NoSyncTimeOfLastPromo</key>
+	<real>477803592.785263</real>
+	<key>NoSyncTimeOfLastPromoDownload</key>
+	<real>486403559.73974198</real>
+	<key>NoSyncTipsDisabled</key>
+	<true/>
+	<key>NoSyncTipsToNotShow</key>
+	<array>
+		<string>000</string>
+	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -38250,7 +38243,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/paula1/.config/iterm2</string>
+	<string>/Users/kevin/.config/iterm2</string>
 	<key>Print In Black And White</key>
 	<true/>
 	<key>PromptOnQuit</key>
@@ -38264,12 +38257,12 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final.xml?shard=98</string>
+	<string>https://iterm2.com/appcasts/final.xml?shard=34</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-08-29T01:06:37Z</date>
-	<key>SUSendProfileInfo</key>
+	<date>2018-10-16T23:45:06Z</date>
+	<key>Secure Input</key>
 	<false/>
 	<key>ShowBookmarkName</key>
 	<false/>
@@ -38285,6 +38278,8 @@
 	<integer>40</integer>
 	<key>TerminalVMargin</key>
 	<integer>30</integer>
+	<key>UKCrashReporterLastCrashReportDate</key>
+	<real>1444261376</real>
 	<key>Window Arrangements</key>
 	<dict>
 		<key>Default</key>
@@ -40630,7 +40625,7 @@
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>iTerm Version</key>
-	<string>3.2.0</string>
+	<string>3.2.4beta1</string>
 	<key>kCPKSelectionViewPreferredModeKey</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>

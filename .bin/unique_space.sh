@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash 
 
 # Things to customize:
 # _space_id:	change command to get current space
@@ -6,8 +6,8 @@
 
 _space_id () {
 	# change command here?
-	SPACE=$(/usr/local/bin/kwmc query space active id)
-	#/usr/local/bin/chunkc tiling::query -d id
+	#SPACE=$(/usr/local/bin/kwmc query space active id)
+	SPACE=$(/usr/local/bin/chunkc tiling::query -d id)
 	echo $SPACE
 }
 
@@ -37,7 +37,7 @@ _cache_json() {
 
 _cache() {
 	_cache_seq
-	#_cache_css
+	_cache_css
 	_cache_json
 }
 
@@ -47,11 +47,19 @@ change_wallpaper () {
 	if [[ ! -f "$1" ]]; then exit 1; fi
 
 	(_run_wal "$FILE" && _cache) >/dev/null 2>&1 &
-	osascript -e "tell application \"Finder\" to set desktop picture to POSIX file \"$FILE\""
+	#osascript -e "tell application \"Finder\" to set desktop picture to POSIX file \"$FILE\""
+	SPACE=$(_space_id)
+	osascript \
+    -e "tell application \"System Events\"" \
+    -e "set theDesktops to a reference to every desktop" \
+    -e "repeat with x from $SPACE to $SPACE" \
+    -e "set picture of item x of the theDesktops to POSIX file \"$FILE\"" \
+    -e "end repeat" \
+    -e "end tell"
 }
 
 new_terminal () {
-	osascript -e "tell application \"iTerm\" to create window with default profile"
+	osascript -e "tell application \"iTerm2\" to create window with default profile"
 }
 
 reload_colors () {

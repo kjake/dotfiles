@@ -1,4 +1,4 @@
-" Amar Paul's init.vim (for Neovim)
+" kevin Paul's init.vim (for Neovim)
 
 "dein Scripts-----------------------------
 if &compatible
@@ -6,15 +6,15 @@ if &compatible
 endif
 
 " Required:
-set runtimepath+=/Users/Amar/.config/nvim//repos/github.com/Shougo/dein.vim
+set runtimepath+=/Users/kevin/.config/nvim/repos/github.com/Shougo/dein.vim
 
 " Required:
-if dein#load_state('/Users/Amar/.config/nvim/')
-  call dein#begin('/Users/Amar/.config/nvim/')
+if dein#load_state('/Users/kevin/.config/nvim/')
+  call dein#begin('/Users/kevin/.config/nvim/')
 
   " Let dein manage dein
   " Required:
-  call dein#add('/Users/Amar/.config/nvim//repos/github.com/Shougo/dein.vim')
+  call dein#add('/Users/kevin/.config/nvim/repos/github.com/Shougo/dein.vim')
 
 
   " Themes:
@@ -60,7 +60,7 @@ if dein#load_state('/Users/Amar/.config/nvim/')
   call dein#add('tpope/vim-surround')
 
   " collab editing
-  "call dein#add('FredKSchott/CoVim')
+  call dein#add('FredKSchott/CoVim')
 
   " nice completion of (x)html tags
   call dein#add('tpope/vim-ragtag')
@@ -292,7 +292,7 @@ let g:python_host_prog='/usr/local/bin/python'
 let g:python3_host_prog='/usr/local/bin/python3'
 
 " Rust Auto-Complete-ER
-let g:racer_cmd = "/Users/Amar/.cargo/bin/racer"
+let g:racer_cmd = "/Users/kevin/.cargo/bin/racer"
 
 " close the deoplete preview window on autocomplete
 autocmd CompleteDone * pclose
